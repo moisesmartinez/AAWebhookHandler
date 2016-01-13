@@ -203,6 +203,7 @@
       <LastGenOutput>SecretsDbCG.cs</LastGenOutput>
     </None>
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\WebhookHandler.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
