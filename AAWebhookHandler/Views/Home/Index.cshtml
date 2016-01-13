@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+	<div class="content-wrap">
+		<div class="content">
+			<header class="codrops-header">
+				<h1>A/A Dev Challenge v2.0 <span>Find the secret message in the box below!</span></h1>
+			</header>
+			<section class="related">
+				<a href="#">
+					<h3>@ViewData["Message"]</h3>
+				</a>
+			</section>
+			<section class="codrops-header">
+				<a href="https://github.com/MoisesMartinez"><i class="fa fa-fw fa-github"></i> Moises Martinez  (<i>moy.contrabass@gmail.com</i>)</a>
+		</div>
+	</div>
+</div>
