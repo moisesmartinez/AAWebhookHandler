@@ -156,9 +156,7 @@
     </Content>
     <Content Include="Content\css\style.css" />
     <Content Include="Content\fonts\font-awesome-4.2.0\css\font-awesome.min.css" />
-    <Content Include="Content\fonts\font-awesome-4.2.0\fonts\fontawesome-webfont.svg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Content\fonts\font-awesome-4.2.0\fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -185,15 +183,9 @@
     </EntityDeploy>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Content\fonts\font-awesome-4.2.0\fonts\fontawesome-webfont.eot">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Content\fonts\font-awesome-4.2.0\fonts\fontawesome-webfont.ttf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Content\fonts\font-awesome-4.2.0\fonts\fontawesome-webfont.woff">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Content Include="Content\fonts\font-awesome-4.2.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\font-awesome-4.2.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\font-awesome-4.2.0\fonts\fontawesome-webfont.woff" />
     <None Include="SecretsDbCG.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>SecretsDbCG.Context.cs</LastGenOutput>
